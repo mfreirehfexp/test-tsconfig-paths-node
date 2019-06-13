@@ -1,0 +1,21 @@
+{
+  "name": "ts-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "tsc && npm start",
+    "start": "node -r tsconfig-paths/register dist/main.js",
+    "start-two": "node -r ./tsconfig-paths-bootstrap.js dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^3.8.0"
+  }
+}
