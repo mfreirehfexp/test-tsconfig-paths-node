@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
-    "test": "tsc && npm start",
-    "start": "node -r tsconfig-paths/register dist/main.js",
+    "tsc": "tsc -p src",
+    "test": "tsc -p src && cp src/tsconfig.json dist/tsconfig.json && npm start",
+    "start": "cd dist && node -r tsconfig-paths/register main.js",
     "start-two": "node -r ./tsconfig-paths-bootstrap.js dist/main.js"
   },
   "keywords": [],

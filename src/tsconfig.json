@@ -3,14 +3,12 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "../dist",
     "baseUrl": ".",
     "paths": {
-      "@shared/*": [ "src/some/common/files/dir/*" ],
-      "@sharedv2": [ "src/some/common/files/dir" ]
+      "@shared/*": ["some/common/files/dir/*"],
+      "@sharedv2": ["some/common/files/dir"]
     },
-
-
 
     "allowJs": true,
     "moduleResolution": "node",
@@ -21,7 +19,5 @@
     "removeComments": false,
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
