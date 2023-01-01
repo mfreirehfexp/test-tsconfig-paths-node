@@ -16,6 +16,6 @@
     "typescript": "^3.5.1"
   },
   "devDependencies": {
-    "tsconfig-paths": "^3.8.0"
+    "tsconfig-paths": "^3.10.1"
   }
 }
